@@ -1,12 +1,37 @@
-# React + Vite
+# Todo Goals Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A clean, centered todo app for tracking three key life goals with completion status.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Track 3 main goals with descriptions
+- Toggle completion by clicking items
+- Add new goals via simple form
+- Clean, minimalist UI with centered layout
+- Mobile-responsive design
 
-## Expanding the ESLint configuration
+## Technologies
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React.js (Functional components)
+- CSS3 (Flexbox, modern styling)
+- useState hooks for state management
+
+## Setup
+
+1. Clone repository
+2. `npm install`
+3. `npm start`
+
+## Goals Showcased
+
+1. Become a Developer
+2. Start a Dev Tech Company
+3. Start Kiplagat Foundation
+
+## Customization
+
+Edit `src/App.js` to:
+
+- Change initial goals
+- Modify styling in `App.css`
+- Add new features
